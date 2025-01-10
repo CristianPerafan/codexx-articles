@@ -2,7 +2,7 @@
 title: "Construyendo un RAG para chatear con PDF's en Python"
 author: "Cristian Perafán"
 date: 2025-01-08
-description: "Aprende a crear un RAG en Python para evaluar el desempeño de tus proyectos."
+description: "Aprende a crear un RAG en Python para chatear con documentos PDF"
 tags:
 - Python
 - Programación
