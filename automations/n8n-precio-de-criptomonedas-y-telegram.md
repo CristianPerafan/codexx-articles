@@ -51,5 +51,5 @@ Y veras la siguiente pantalla de configuración:
 
 1. Entra a n8n y crea un nuevo workflow.
 
-![Crear workflow](https://i.ibb.co/LXW6PMSY/Crear-workflow.png)
+   <a href="https://ibb.co/x8mPCXms"><img src="https://i.ibb.co/cXbMgkbv/Crear-workflow.png" alt="Crear-workflow" border="0"></a>
 
