@@ -95,24 +95,26 @@ Y veras la siguiente pantalla de configuración:
    **JavaScript Code**:
 
    ```javascript
-   const results = []
+   const results = [];
 
    for (const item of $input.all()) {
-
    const crypto = item.json;
-   
    results.push({
       json: {
          id: crypto.id,
          name: crypto.name,
          symbol: crypto.symbol,
          price: crypto.current_price,
-         volume: crypto.total_volume
+         volume: crypto.total_volume,
+         high_24h: crypto.high_24h,
+         low_24h: crypto.low_24h,
+         total_supply: crypto.total_supply,
+         max_supply: crypto.max_supply
       }
    });
    }
 
-   return results
+   return results;
    ```
 
    Esta función tomará los datos de las criptomonedas del anterior nodo y obtendrá el nombre, símbolo, precio y volumen de cada criptomoneda.
