@@ -15,6 +15,8 @@ Recientemente OpenAI lanzó dos nuevos modelos de lenguaje de pesos abiertos: `g
 
 OpenAI menciona que el modelo `gpt-oss-20b`  puede ser ejecutado en dispositivos con 16GB de RAM, lo que incluso abre la posibilidad de poder ejecutarlo en computadoras personales y smartphones de gama alta.
 
+En el caso que quieras profundicar más sobre estos modelos, puedes visitar el [Presentación de gpt-oss](https://openai.com/es-419/index/introducing-gpt-oss/).
+
 
 <p align="center">
   <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*vjkIPeFDiV5fmsNqNmiVYQ.png" alt="Comparación de modelos de OpenAI (Fuente OpenAI)">
@@ -33,33 +35,46 @@ Luego de esta breve introducción, veamos cómo ejecutar el modelo `gpt-oss-20b`
 
 1. Visita el sitio web oficial de [Ollama](https://ollama.ai/download).
    
-   ![Ollama Download](https://i.postimg.cc/wvpGFxD1/image.png)
-   
-2. Selecciona la opción correspondiente a tu sistema operativo.
-3. Descarga el archivo y ejecuta el archivo de instalación.
-4. Una vez completada la instalación, se abrirá una ventana con la UI de Ollama.
 
-   ![Ollama UI](https://miro.medium.com/v2/resize:fit:720/format:webp/1*IzxUXSxickXB1JFaZZl_qA.png)
+   <p align="center">
+   <img src="https://i.postimg.cc/wvpGFxD1/image.png" alt="Ollama Download">
+   </p>
+   
+1. Selecciona la opción correspondiente a tu sistema operativo.
+2. Descarga el archivo y ejecuta el archivo de instalación.
+3. Una vez completada la instalación, se abrirá una ventana con la UI de Ollama.
+
+   <p align="center">
+   <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*IzxUXSxickXB1JFaZZl_qA.png" alt="Ollama UI">
+   </p>
 
 **Paso 2: Descargar el Modelo gpt-oss-20b**
 
 1. Selecciona el modelo `gpt-oss-20b` en la interfaz de usuario.
 
-   ![Seleccionar Modelo](https://miro.medium.com/v2/resize:fit:720/format:webp/1*LrbX3KoXcatLh7uzmK8cww.png)
+   <p align="center">
+   <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*LrbX3KoXcatLh7uzmK8cww.png" alt="Seleccionar Modelo">
+   </p>
 
 2. Escribe un mensaje en el cuadro de texto, en este caso voy a probar con el siguiente mensaje:
    
 > Escribe una función en Python que determine si un número es primo. Luego úsala para imprimir todos los números primos entre 1 y 100.
 
-   ![Escribir Mensaje](https://miro.medium.com/v2/resize:fit:720/format:webp/1*IuVGn7FGSHpKdssi7n5pzA.png)
+   <p align="center">
+   <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*IuVGn7FGSHpKdssi7n5pzA.png" alt="Escribir Mensaje">
+   </p>
 
 3. Una vez que hayas escrito tu mensaje, se iniciará la descarga del modelo.
 
-   ![Descargando Modelo](https://miro.medium.com/v2/resize:fit:720/format:webp/1*bA_ldjYcqrcCKrveC5WHeg.png)
+   <p align="center">
+   <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*bA_ldjYcqrcCKrveC5WHeg.png" alt="Descargando Modelo">
+   </p>
 
 4. Finalizada la descarga, el modelo comenzará a procesar tu mensaje y lo podrás utilizar localmente.
 
-   ![Modelo Procesando Mensaje](https://miro.medium.com/v2/resize:fit:720/format:webp/1*uzx7UB5YmhIQpgsVDGF2oA.png)
+   <p align="center">
+   <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*uzx7UB5YmhIQpgsVDGF2oA.png" alt="Modelo Procesando Mensaje">
+   </p>
 
 **Paso 3: Descargar el Modelo gpt-oss-20b utilizando la Terminal**
 
@@ -73,7 +88,9 @@ Luego de esta breve introducción, veamos cómo ejecutar el modelo `gpt-oss-20b`
 3. Espera a que la descarga finalice.
 4. Una vez completada la instalación, puedes interactuar con el modelo escribiendo mensajes directamente en la terminal.
 
-   ![Ejemplo de Uso en Terminal](https://miro.medium.com/v2/resize:fit:720/format:webp/1*XmuJHt_XX4y8lQ8NWItXgQ.png)
+   <p align="center">
+   <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*XmuJHt_XX4y8lQ8NWItXgQ.png" alt="Ejemplo de Uso en Terminal">
+   </p>
 
 ## **Cierre**
 
